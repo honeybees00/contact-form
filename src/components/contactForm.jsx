@@ -11,7 +11,7 @@ export const contactForm = () => {
   }
   
   return (
-    <div>
+    <div className='w-50' border border-2 p-4 rounded>
       <form onSubmit={handelSubmit}>
         <div className='mb-3'>
           <label htmlFor='name'></label>
@@ -31,6 +31,6 @@ export const contactForm = () => {
         <button type='submit' className='btn btn-success'>send</button>
         </form>
         </div>
-      
+           
   )
 }
