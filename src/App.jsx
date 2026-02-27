@@ -1,4 +1,4 @@
-import { contactForm } from './components/contactForm'
+import { ContactForm } from './components/contactForm'
 import './App.css'
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
-    <contactForm/>
+    <ContactForm/>
       </>
+  )}
       export default App
