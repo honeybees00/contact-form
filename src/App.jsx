@@ -1,8 +1,7 @@
-
 import './App.css'
-import {home} from 'pages/Home'
-import {ContactPage} from 'Pages/ContactPage'
-import { BrowserRouter, Route } from "react-router-dom";
+import {home} from './ pages/Home'
+import {ContactPage} from './ Pages/ContactPage'
+import { BrowserRouter, Route } from "./react-router-dom"
 
 function App() {
   
