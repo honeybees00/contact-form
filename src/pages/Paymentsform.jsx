@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Home } from "./Home";
 export const Paymentsform = () => {
 	const [formData, setFormData] = useState({
 		name: "",

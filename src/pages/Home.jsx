@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { ContactForm } from '../components/ContactForm'
+import { Paymentsform } from './Paymentsform'
 export const Home = () => {
   return (
     <div>Home

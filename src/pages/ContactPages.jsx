@@ -1,6 +1,6 @@
 import React from 'react'
 import {ContactForm} from '../components/ContactForm'
-
+import { Home } from './Home'
 export const ContactPages= () => {
   return (
     <div className='container'>
