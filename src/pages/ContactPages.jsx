@@ -1,10 +1,14 @@
 import React from 'react'
-import { ContactForm } from '../components/contactForm'
+import {ContactForm} from '../components/ContactForm'
 
-export const ContactForm = () => {
+export const ContactPages= () => {
   return (
-    <div container>ContactForm
+    <div className='container'>
+      
+    
         <h1>Contact Us!</h1>
+        <ContactForm/>
     </div>
+
   )
 }
